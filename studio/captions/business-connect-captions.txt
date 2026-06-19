@@ -1,0 +1,63 @@
+============================================================
+Business Connect v3 - SOCIAL MEDIA CAPTION KIT
+Created with the HMG Connect Marketing Studio (free, no AI API).
+Paste straight into WhatsApp / Instagram / Facebook / X / LinkedIn.
+============================================================
+
+--- SHORT (WhatsApp Status / X) ---
+💼 Business Connect v3 by HMG Concepts
+An ERP-style platform for any business — POS, CRM, payroll & more — free.
+N0/month - You own your data - Ready in minutes.
+Chat: +234 810 086 6322  |  hmgconcepts.pages.dev
+
+--- MEDIUM (Instagram / Facebook) ---
+💼 Meet Business Connect v3 - for any business sector — enterprise-grade.
+
+Paying monthly for software that still doesn't fit how your business runs?
+There is a better, FREE way. An ERP-style platform for any business — POS, CRM, payroll & more — free.
+
+What you get:
+   [+] Staff, CRM & Sales - Team records, lead pipeline & deal tracking.
+   [+] POS + Receipts + Barcode - Fast checkout, barcode scan & printed receipts.
+   [+] Online Storefront - Public shop page; customers order online.
+   [+] Invoices, Quotes & Inventory - Branded PDFs, stock & low-stock alerts.
+   [+] Payroll & Payslips - Salary runs with printable payslips.
+   [+] Finance, Expenses & Assets - Ledgers, claims & asset register.
+   [+] Analytics, Audit & Reports - Charts, action trail & Excel/CSV export.
+   [+] Free Automation Pack - Optional Supabase functions for alerts.
+
+Built on free tools (Supabase + static hosting). No monthly licence. No AI API fees. You own 100% of your data.
+
+Perfect for: Retail & shops, Services & agencies, Hospitality, Logistics & manufacturing, Startups & NGOs.
+
+Ready when you are - send us your details and we build & deploy it for you.
+WhatsApp: +234 810 086 6322
+Web: hmgconcepts.pages.dev
+#HMGConcepts #BusinessConnect #EdTech #DataTech #NoCode
+
+--- LONG (LinkedIn / Blog) ---
+Most any business sector — enterprise-grade are paying for software that still doesn't fit how they work - or managing everything on paper and WhatsApp.
+
+Business Connect v3 changes that. It's a complete, modern management platform you can launch in minutes and run for free:
+   [+] Staff, CRM & Sales - Team records, lead pipeline & deal tracking.
+   [+] POS + Receipts + Barcode - Fast checkout, barcode scan & printed receipts.
+   [+] Online Storefront - Public shop page; customers order online.
+   [+] Invoices, Quotes & Inventory - Branded PDFs, stock & low-stock alerts.
+   [+] Payroll & Payslips - Salary runs with printable payslips.
+   [+] Finance, Expenses & Assets - Ledgers, claims & asset register.
+   [+] Analytics, Audit & Reports - Charts, action trail & Excel/CSV export.
+   [+] Free Automation Pack - Optional Supabase functions for alerts.
+
+Why it's different:
+- N0 monthly software cost - built on the free Supabase tier + free static hosting.
+- No AI API anywhere - deliberately, because it is not cost effective.
+- Secure by design - Supabase Auth + Row Level Security, with an admin approval workflow.
+- You own everything - the code and the data are yours.
+
+We can build, brand and deploy it for you once you share your details - or self-deploy with our step-by-step guide.
+
+A product of HMG Concepts (His Marvellous Grace), EdTech · DataTech · FaithTech, Lagos, Nigeria.
++234 810 086 6322  -  hmgconcepts.pages.dev
+
+--- HASHTAGS ---
+#HMGConcepts #BusinessConnect #EdTech #DataTech #FaithTech #NoCode #Supabase #SmallBusinessTools #DigitalTransformation #Nigeria #Lagos

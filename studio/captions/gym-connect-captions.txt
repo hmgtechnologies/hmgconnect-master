@@ -1,0 +1,63 @@
+============================================================
+Gym Connect new - SOCIAL MEDIA CAPTION KIT
+Created with the HMG Connect Marketing Studio (free, no AI API).
+Paste straight into WhatsApp / Instagram / Facebook / X / LinkedIn.
+============================================================
+
+--- SHORT (WhatsApp Status / X) ---
+🏋️ Gym Connect new by HMG Concepts
+Members, subscriptions, check-ins & classes — a free gym management system.
+N0/month - You own your data - Ready in minutes.
+Chat: +234 810 086 6322  |  hmgconcepts.pages.dev
+
+--- MEDIUM (Instagram / Facebook) ---
+🏋️ Meet Gym Connect new - for gyms, fitness studios & sports clubs.
+
+Members training on expired plans and no record of who showed up?
+There is a better, FREE way. Members, subscriptions, check-ins & classes — a free gym management system.
+
+What you get:
+   [+] Members & Subscriptions - Plans, renewals & expiry reminders.
+   [+] Check-in / Attendance - QR or front-desk check-in & visit history.
+   [+] Class & Trainer Schedule - Timetable, bookings & capacity limits.
+   [+] Payments & Invoices - Dues, point-of-sale & printable receipts.
+   [+] Trainers & Roster - Staff shifts, sessions & payroll.
+   [+] Shop / Supplements POS - Sell gear & supplements; cut stock.
+   [+] Progress & Measurements - Track member goals & body metrics.
+   [+] Reports & Analytics - Active members, revenue & churn.
+
+Built on free tools (Supabase + static hosting). No monthly licence. No AI API fees. You own 100% of your data.
+
+Perfect for: Gyms, Fitness studios, CrossFit boxes, Sports clubs, Martial-arts dojos.
+
+Ready when you are - send us your details and we build & deploy it for you.
+WhatsApp: +234 810 086 6322
+Web: hmgconcepts.pages.dev
+#HMGConcepts #GymConnect #EdTech #DataTech #NoCode
+
+--- LONG (LinkedIn / Blog) ---
+Most gyms, fitness studios & sports clubs are paying for software that still doesn't fit how they work - or managing everything on paper and WhatsApp.
+
+Gym Connect new changes that. It's a complete, modern management platform you can launch in minutes and run for free:
+   [+] Members & Subscriptions - Plans, renewals & expiry reminders.
+   [+] Check-in / Attendance - QR or front-desk check-in & visit history.
+   [+] Class & Trainer Schedule - Timetable, bookings & capacity limits.
+   [+] Payments & Invoices - Dues, point-of-sale & printable receipts.
+   [+] Trainers & Roster - Staff shifts, sessions & payroll.
+   [+] Shop / Supplements POS - Sell gear & supplements; cut stock.
+   [+] Progress & Measurements - Track member goals & body metrics.
+   [+] Reports & Analytics - Active members, revenue & churn.
+
+Why it's different:
+- N0 monthly software cost - built on the free Supabase tier + free static hosting.
+- No AI API anywhere - deliberately, because it is not cost effective.
+- Secure by design - Supabase Auth + Row Level Security, with an admin approval workflow.
+- You own everything - the code and the data are yours.
+
+We can build, brand and deploy it for you once you share your details - or self-deploy with our step-by-step guide.
+
+A product of HMG Concepts (His Marvellous Grace), EdTech · DataTech · FaithTech, Lagos, Nigeria.
++234 810 086 6322  -  hmgconcepts.pages.dev
+
+--- HASHTAGS ---
+#HMGConcepts #GymConnect #EdTech #DataTech #FaithTech #NoCode #Supabase #SmallBusinessTools #DigitalTransformation #Nigeria #Lagos

@@ -1,0 +1,63 @@
+============================================================
+Logistics Connect new - SOCIAL MEDIA CAPTION KIT
+Created with the HMG Connect Marketing Studio (free, no AI API).
+Paste straight into WhatsApp / Instagram / Facebook / X / LinkedIn.
+============================================================
+
+--- SHORT (WhatsApp Status / X) ---
+🚚 Logistics Connect new by HMG Concepts
+Shipments, fleet, drivers & deliveries — a free logistics management system.
+N0/month - You own your data - Ready in minutes.
+Chat: +234 810 086 6322  |  hmgconcepts.pages.dev
+
+--- MEDIUM (Instagram / Facebook) ---
+🚚 Meet Logistics Connect new - for logistics, transport & delivery companies.
+
+Parcels lost in transit, no proof of delivery and a fleet you can't track?
+There is a better, FREE way. Shipments, fleet, drivers & deliveries — a free logistics management system.
+
+What you get:
+   [+] Shipments & Waybills - Create consignments with printable waybills & tracking IDs.
+   [+] Live Tracking & Status - Move shipments from pickup to delivered with timestamps.
+   [+] Fleet & Vehicles - Vehicle register, mileage, service & documents.
+   [+] Drivers & Trips - Assign drivers, routes & trip logs.
+   [+] Customers & Billing - Senders/receivers, invoices & printable receipts.
+   [+] Proof of Delivery - Capture recipient name, signature note & time.
+   [+] Maintenance & Fuel - Log servicing, repairs & fuel spend.
+   [+] Reports & Analytics - On-time rate, revenue & fleet utilisation.
+
+Built on free tools (Supabase + static hosting). No monthly licence. No AI API fees. You own 100% of your data.
+
+Perfect for: Courier & dispatch, Haulage & trucking, Freight forwarders, Last-mile delivery, Moving companies.
+
+Ready when you are - send us your details and we build & deploy it for you.
+WhatsApp: +234 810 086 6322
+Web: hmgconcepts.pages.dev
+#HMGConcepts #LogisticsConnect #EdTech #DataTech #NoCode
+
+--- LONG (LinkedIn / Blog) ---
+Most logistics, transport & delivery companies are paying for software that still doesn't fit how they work - or managing everything on paper and WhatsApp.
+
+Logistics Connect new changes that. It's a complete, modern management platform you can launch in minutes and run for free:
+   [+] Shipments & Waybills - Create consignments with printable waybills & tracking IDs.
+   [+] Live Tracking & Status - Move shipments from pickup to delivered with timestamps.
+   [+] Fleet & Vehicles - Vehicle register, mileage, service & documents.
+   [+] Drivers & Trips - Assign drivers, routes & trip logs.
+   [+] Customers & Billing - Senders/receivers, invoices & printable receipts.
+   [+] Proof of Delivery - Capture recipient name, signature note & time.
+   [+] Maintenance & Fuel - Log servicing, repairs & fuel spend.
+   [+] Reports & Analytics - On-time rate, revenue & fleet utilisation.
+
+Why it's different:
+- N0 monthly software cost - built on the free Supabase tier + free static hosting.
+- No AI API anywhere - deliberately, because it is not cost effective.
+- Secure by design - Supabase Auth + Row Level Security, with an admin approval workflow.
+- You own everything - the code and the data are yours.
+
+We can build, brand and deploy it for you once you share your details - or self-deploy with our step-by-step guide.
+
+A product of HMG Concepts (His Marvellous Grace), EdTech · DataTech · FaithTech, Lagos, Nigeria.
++234 810 086 6322  -  hmgconcepts.pages.dev
+
+--- HASHTAGS ---
+#HMGConcepts #LogisticsConnect #EdTech #DataTech #FaithTech #NoCode #Supabase #SmallBusinessTools #DigitalTransformation #Nigeria #Lagos

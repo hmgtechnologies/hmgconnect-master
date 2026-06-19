@@ -1,0 +1,63 @@
+============================================================
+Salon Connect new - SOCIAL MEDIA CAPTION KIT
+Created with the HMG Connect Marketing Studio (free, no AI API).
+Paste straight into WhatsApp / Instagram / Facebook / X / LinkedIn.
+============================================================
+
+--- SHORT (WhatsApp Status / X) ---
+💇 Salon Connect new by HMG Concepts
+Bookings, services, stylists & sales — a free salon & spa management system.
+N0/month - You own your data - Ready in minutes.
+Chat: +234 810 086 6322  |  hmgconcepts.pages.dev
+
+--- MEDIUM (Instagram / Facebook) ---
+💇 Meet Salon Connect new - for salons, spas & beauty studios.
+
+Double-booked chairs, no-shows and walk-in sales you never recorded?
+There is a better, FREE way. Bookings, services, stylists & sales — a free salon & spa management system.
+
+What you get:
+   [+] Appointments & Bookings - Calendar by stylist with reminders & no-show notes.
+   [+] Services & Price List - Menu of services, durations & prices.
+   [+] Clients & History - Client profiles, visit history & preferences.
+   [+] Stylists & Roster - Staff schedules, commissions & payroll.
+   [+] POS & Receipts - Charge services + retail products; printable receipts.
+   [+] Products / Inventory - Retail & back-bar stock with low-stock alerts.
+   [+] Loyalty & Feedback - Reward repeat clients; collect reviews.
+   [+] Reports & Analytics - Revenue, busiest hours & top services.
+
+Built on free tools (Supabase + static hosting). No monthly licence. No AI API fees. You own 100% of your data.
+
+Perfect for: Hair salons, Spas & wellness, Barbershops, Nail studios, Beauty clinics.
+
+Ready when you are - send us your details and we build & deploy it for you.
+WhatsApp: +234 810 086 6322
+Web: hmgconcepts.pages.dev
+#HMGConcepts #SalonConnect #EdTech #DataTech #NoCode
+
+--- LONG (LinkedIn / Blog) ---
+Most salons, spas & beauty studios are paying for software that still doesn't fit how they work - or managing everything on paper and WhatsApp.
+
+Salon Connect new changes that. It's a complete, modern management platform you can launch in minutes and run for free:
+   [+] Appointments & Bookings - Calendar by stylist with reminders & no-show notes.
+   [+] Services & Price List - Menu of services, durations & prices.
+   [+] Clients & History - Client profiles, visit history & preferences.
+   [+] Stylists & Roster - Staff schedules, commissions & payroll.
+   [+] POS & Receipts - Charge services + retail products; printable receipts.
+   [+] Products / Inventory - Retail & back-bar stock with low-stock alerts.
+   [+] Loyalty & Feedback - Reward repeat clients; collect reviews.
+   [+] Reports & Analytics - Revenue, busiest hours & top services.
+
+Why it's different:
+- N0 monthly software cost - built on the free Supabase tier + free static hosting.
+- No AI API anywhere - deliberately, because it is not cost effective.
+- Secure by design - Supabase Auth + Row Level Security, with an admin approval workflow.
+- You own everything - the code and the data are yours.
+
+We can build, brand and deploy it for you once you share your details - or self-deploy with our step-by-step guide.
+
+A product of HMG Concepts (His Marvellous Grace), EdTech · DataTech · FaithTech, Lagos, Nigeria.
++234 810 086 6322  -  hmgconcepts.pages.dev
+
+--- HASHTAGS ---
+#HMGConcepts #SalonConnect #EdTech #DataTech #FaithTech #NoCode #Supabase #SmallBusinessTools #DigitalTransformation #Nigeria #Lagos
