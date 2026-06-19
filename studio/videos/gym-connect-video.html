@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Connect — Advert Video | HMG Concepts</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Inter','Segoe UI',Arial,sans-serif;background:#0b1120;color:#e2e8f0;display:flex;flex-direction:column;align-items:center;padding:18px;gap:14px}
+h1{font-size:18px;margin:4px 0 0}.muted{color:#94a3b8;font-size:13px;text-align:center;max-width:640px}
+.stage{width:100%;max-width:720px;aspect-ratio:16/9;border-radius:14px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.55);background:#000}
+canvas{width:100%;height:100%;display:block}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.bar button{border:none;border-radius:10px;padding:11px 18px;font-weight:700;font-size:14px;cursor:pointer;background:#1e293b;color:#e2e8f0}
+.bar button.pri{background:#dc2626;color:#fff}.bar button:disabled{opacity:.5;cursor:not-allowed}.bar a{text-decoration:none}
+.status{font-size:12px;color:#94a3b8;min-height:16px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:6px;animation:bl 1s infinite}@keyframes bl{50%{opacity:.2}}
+.tips{background:#111827;border:1px solid #1f2937;border-radius:12px;padding:14px 16px;max-width:680px;font-size:13px;color:#cbd5e1}.tips b{color:#fff}
+</style></head><body>
+<h1>🏋️ Gym Connect new — Advertisement Video</h1>
+<div class="muted">A free, animated 16:9 advert (~21s). Press <b>Play</b> to preview, or <b>Record</b> to capture it as a downloadable video file — no AI, no paid tools.</div>
+<div class="stage"><canvas id="cv" width="1280" height="720"></canvas></div>
+<div class="bar">
+  <button class="pri" id="play">&#9654; Play</button>
+  <button id="rec">&#9210; Record &amp; Download</button>
+  <button id="restart">&#8635; Restart</button>
+  <a href="../index.html"><button>&larr; Back to Studio</button></a>
+</div>
+<div class="status" id="status"></div>
+<div class="tips"><b>How to get a video file:</b> click <b>Record &amp; Download</b> — the advert plays once and a <code>.webm</code> file downloads automatically. Post it to WhatsApp Status, Instagram, Facebook &amp; YouTube. To convert to <code>.mp4</code>, use the free <a href="https://cloudconvert.com/webm-to-mp4" target="_blank" style="color:#93c5fd">CloudConvert</a> or offline <a href="https://handbrake.fr/" target="_blank" style="color:#93c5fd">HandBrake</a>. 100% free — no AI API.</div>
+<script>
+const CV=document.getElementById('cv'), X=CV.getContext('2d'), W=CV.width, H=CV.height;
+const C1="#dc2626", C2="#991b1b", ACCENT="#fde047";
+const NAME="Gym Connect", VER="new", ICON="🏋️", FORWHO="Gyms, fitness studios & sports clubs";
+const TAGLINE="Members, subscriptions, check-ins & classes — a free gym management system.", PROBLEM="Members training on expired plans and no record of who showed up?";
+const FEATS=["Members & Subscriptions", "Check-in / Attendance", "Class & Trainer Schedule", "Payments & Invoices", "Trainers & Roster", "Shop / Supplements POS"], SECTORS=["Gyms", "Fitness studios", "CrossFit boxes", "Sports clubs", "Martial-arts dojos"];
+const BRAND="HMG Concepts", WA="+234 810 086 6322", SITE="hmgconcepts.pages.dev", TAG="EdTech · DataTech · FaithTech";
+function lerp(a,b,t){return a+(b-a)*t;}
+function clamp(t){return t<0?0:t>1?1:t;}
+function ease(t){return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;}
+function rr(x,y,w,h,r){X.beginPath();X.moveTo(x+r,y);X.arcTo(x+w,y,x+w,y+h,r);X.arcTo(x+w,y+h,x,y+h,r);X.arcTo(x,y+h,x,y,r);X.arcTo(x,y,x+w,y,r);X.closePath();}
+function bg(){const g=X.createLinearGradient(0,0,W,H);g.addColorStop(0,C1);g.addColorStop(1,C2);X.fillStyle=g;X.fillRect(0,0,W,H);
+  X.globalAlpha=.07;X.fillStyle="#fff";X.beginPath();X.arc(W-120,120,260,0,7);X.fill();X.beginPath();X.arc(80,H-60,200,0,7);X.fill();X.globalAlpha=1;}
+function chip(txt,cx,cy){X.font="600 26px Inter,Arial";const w=X.measureText(txt).width+44;X.fillStyle="rgba(255,255,255,.18)";rr(cx-w/2,cy-22,w,44,22);X.fill();X.fillStyle="#fff";X.textAlign="center";X.textBaseline="middle";X.fillText(txt,cx,cy+1);}
+function logoMark(cx,cy,s){X.fillStyle="rgba(255,255,255,.16)";rr(cx-s/2,cy-s/2,s,s,s*0.24);X.fill();X.fillStyle="#fff";X.font="900 "+(s*0.34)+"px Inter,Arial";X.textAlign="center";X.textBaseline="middle";X.fillText("HMG",cx,cy+s*0.02);X.fillStyle=ACCENT;X.beginPath();X.arc(cx+s*0.3,cy-s*0.32,s*0.07,0,7);X.fill();}
+const SCENES=[{t:3.2,draw:sceneIntro},{t:3.0,draw:sceneProblem},{t:6.0,draw:sceneFeatures},{t:3.0,draw:sceneWhy},{t:2.8,draw:sceneSectors},{t:3.5,draw:sceneCTA}];
+const TOTAL=SCENES.reduce((a,s)=>a+s.t,0);
+function frame(time){let acc=0;for(const s of SCENES){if(time<acc+s.t){s.draw((time-acc)/s.t);return;}acc+=s.t;}SCENES[SCENES.length-1].draw(1);}
+function sceneIntro(t){bg();const a=ease(clamp(t*2));logoMark(W/2,H/2-150,140*a);X.globalAlpha=clamp(t*1.6);X.fillStyle="#fff";X.textAlign="center";X.textBaseline="middle";X.font="900 "+lerp(40,84,a)+"px Inter,Arial";X.fillText(NAME,W/2,H/2+10);if(VER){chip(VER.toUpperCase(),W/2,H/2+70);}X.font="500 30px Inter,Arial";X.fillStyle="rgba(255,255,255,.92)";X.fillText(FORWHO,W/2,H/2+(VER?140:110));X.globalAlpha=1;footer();}
+function sceneProblem(t){bg();const a=ease(clamp(t*1.5));X.globalAlpha=a;X.textAlign="center";X.textBaseline="middle";X.font="900 120px Inter,Arial";X.fillText("?",W/2,H/2-120);X.fillStyle="#fff";X.font="700 40px Inter,Arial";wrap(PROBLEM,W/2,H/2+10,W-260,52);X.globalAlpha=1;footer();}
+function sceneFeatures(t){bg();X.fillStyle="#fff";X.textAlign="left";X.textBaseline="alphabetic";X.font="800 46px Inter,Arial";X.fillText("What you get",110,140);const n=FEATS.length;for(let i=0;i<n;i++){const start=i/(n+1);const a=ease(clamp((t-start)*4));if(a<=0)continue;const y=210+i*78;const x=110+(1-a)*40;X.globalAlpha=a;X.fillStyle=ACCENT;X.beginPath();X.arc(x+18,y-10,20,0,7);X.fill();X.fillStyle=C2;X.font="900 22px Inter,Arial";X.textAlign="center";X.fillText("\u2713",x+18,y-2);X.fillStyle="#fff";X.font="600 34px Inter,Arial";X.textAlign="left";X.fillText(FEATS[i],x+56,y);X.globalAlpha=1;}footer();}
+function sceneWhy(t){bg();const a=ease(clamp(t*1.4));const items=[["\u20A60","Monthly cost"],["Minutes","To go live"],["100%","You own data"],["No AI","API fees"]];X.textAlign="center";X.textBaseline="middle";X.globalAlpha=a;X.fillStyle="#fff";X.font="800 46px Inter,Arial";X.fillText("Why HMG Connect?",W/2,120);const cw=250,gap=30,tot=items.length*cw+(items.length-1)*gap,sx=(W-tot)/2;items.forEach((it,i)=>{const d=ease(clamp((t-i*0.12)*2.2));if(d<=0)return;const x=sx+i*(cw+gap);X.globalAlpha=d;X.fillStyle="rgba(255,255,255,.14)";rr(x,H/2-90,cw,200,20);X.fill();X.fillStyle=ACCENT;X.font="900 54px Inter,Arial";X.fillText(it[0],x+cw/2,H/2-10);X.fillStyle="#fff";X.font="500 26px Inter,Arial";X.fillText(it[1],x+cw/2,H/2+55);X.globalAlpha=1;});X.globalAlpha=1;footer();}
+function sceneSectors(t){bg();const a=ease(clamp(t*1.5));X.textAlign="center";X.textBaseline="middle";X.globalAlpha=a;X.fillStyle="#fff";X.font="800 46px Inter,Arial";X.fillText("Perfect for",W/2,130);SECTORS.forEach((s,i)=>{const d=ease(clamp((t-i*0.1)*2.4));if(d<=0)return;X.globalAlpha=d;chip(s,W/2,230+i*72);X.globalAlpha=1;});X.globalAlpha=1;footer();}
+function sceneCTA(t){bg();const a=ease(clamp(t*1.6));logoMark(W/2,150,110*a);X.globalAlpha=clamp(t*1.6);X.textAlign="center";X.textBaseline="middle";X.fillStyle="#fff";X.font="900 56px Inter,Arial";X.fillText("Ready when you are.",W/2,330);X.font="500 30px Inter,Arial";X.fillStyle="rgba(255,255,255,.95)";wrap("Send us your details and we build & deploy your platform — free tools, you own it.",W/2,400,W-300,42);const pulse=1+0.04*Math.sin(t*18);X.save();X.translate(W/2,540);X.scale(pulse,pulse);X.fillStyle="#fff";rr(-260,-40,520,80,40);X.fill();X.fillStyle=C2;X.font="800 34px Inter,Arial";X.fillText("\u260E "+WA,0,2);X.restore();X.fillStyle="rgba(255,255,255,.9)";X.font="600 26px Inter,Arial";X.fillText(SITE,W/2,620);X.globalAlpha=1;footer();}
+function footer(){X.textAlign="center";X.textBaseline="middle";X.fillStyle="rgba(255,255,255,.8)";X.font="500 20px Inter,Arial";X.fillText(BRAND+" \u00B7 "+TAG,W/2,H-34);}
+function wrap(txt,cx,cy,maxw,lh){const words=txt.split(' ');let line="",lines=[];for(const w of words){const test=line+w+" ";if(X.measureText(test).width>maxw&&line){lines.push(line);line=w+" ";}else line=test;}lines.push(line);const start=cy-(lines.length-1)*lh/2;lines.forEach((l,i)=>X.fillText(l.trim(),cx,start+i*lh));}
+let raf=null,startT=0,recording=false,recorder=null,chunks=[];const statusEl=document.getElementById('status');
+function renderAt(sec){frame(Math.min(sec,TOTAL-0.001));}
+function loop(now){if(!startT)startT=now;const sec=(now-startT)/1000;renderAt(sec);if(sec>=TOTAL){if(recording)stopRec();else{cancelAnimationFrame(raf);raf=null;}return;}raf=requestAnimationFrame(loop);}
+function play(){cancelAnimationFrame(raf);startT=0;raf=requestAnimationFrame(loop);}
+function restart(){play();}
+renderAt(0.01);
+document.getElementById('play').onclick=play;
+document.getElementById('restart').onclick=restart;
+document.getElementById('rec').onclick=function(){if(recording)return;if(!CV.captureStream){alert('Your browser cannot record canvas video. Use Chrome, Edge or Firefox (all free).');return;}let mime='video/webm;codecs=vp9';if(!MediaRecorder.isTypeSupported(mime))mime='video/webm';const stream=CV.captureStream(30);try{recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:6000000});}catch(e){alert('Recording not supported: '+e.message);return;}chunks=[];recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};recorder.onstop=function(){const blob=new Blob(chunks,{type:'video/webm'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='gym-connect-advert.webm';a.click();statusEl.textContent='Saved gym-connect-advert.webm ('+(blob.size/1048576).toFixed(1)+' MB). Convert to MP4 free if needed.';};recording=true;recorder.start();statusEl.innerHTML='<span class="dot"></span>Recording... the advert plays once; the file downloads when it finishes.';document.getElementById('rec').disabled=true;play();};
+function stopRec(){if(recorder&&recorder.state!=='inactive')recorder.stop();recording=false;document.getElementById('rec').disabled=false;cancelAnimationFrame(raf);raf=null;}
+</script></body></html>
