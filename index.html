@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HMG Connect — Master Launchpad | HMG Concepts</title>
+<meta name="description" content="The master launchpad for the HMG Connect ecosystem: 10 free no-code platform generators (School, Church, Business, Clinic, Hotel, Estate, Gym, Logistics, Salon, Drama), the Suite hub and the Marketing Studio. By HMG Concepts. No AI API.">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="manifest" href="manifest.json">
+<style>
+:root{--ink:#0f172a;--muted:#64748b;--bg:#f1f5f9;--card:#fff;--border:#e2e8f0;--brand:#4f46e5}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+a{color:var(--brand);text-decoration:none}
+.container{max-width:1140px;margin:0 auto;padding:0 20px}
+.topbar{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:40}
+.topbar .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brandmark{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--ink)}
+.brandmark svg{height:34px;width:34px;border-radius:8px}
+.btn{display:inline-flex;align-items:center;gap:8px;border:none;border-radius:11px;padding:11px 20px;font-weight:700;cursor:pointer;font-size:15px}
+.btn-primary{background:var(--brand);color:#fff}.btn-ghost{background:#fff;color:var(--brand);border:1px solid var(--border)}
+.hero{background:linear-gradient(135deg,#4f46e5,#7c3aed 50%,#0ea5e9);color:#fff;padding:66px 0 80px;text-align:center}
+.hero h1{font-size:clamp(30px,5.4vw,52px);margin:0 0 14px;font-weight:900;letter-spacing:-.6px}
+.hero p{font-size:19px;opacity:.96;max-width:760px;margin:0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,.18);padding:5px 14px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:16px}
+.stat-row{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:-42px}
+.stat{background:#fff;border:1px solid var(--border);border-radius:16px;padding:16px 24px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.stat b{display:block;font-size:24px;font-weight:900;color:var(--brand)}.stat span{font-size:12px;color:var(--muted);font-weight:600}
+.section{margin-top:58px}
+.section-title{font-size:30px;font-weight:900;text-align:center;margin:0 0 6px;letter-spacing:-.4px}
+.section-sub{color:var(--muted);text-align:center;max-width:680px;margin:0 auto 30px}
+.grid{display:grid;gap:18px}
+.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.g3{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.g3,.g2{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.05);transition:.15s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.10)}
+.card .top{padding:22px 18px;color:#fff;display:flex;align-items:center;gap:12px}
+.card .top .ic{font-size:30px;line-height:1}
+.card .top h2{margin:0;font-size:18px;font-weight:800}
+.card .top .tag{opacity:.92;font-size:11px}
+.card .body{padding:16px 18px;display:flex;flex-direction:column;flex:1}
+.card .body p{color:var(--muted);font-size:13.5px;margin:0 0 14px}
+.card .cta{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
+.card .cta a{flex:1;justify-content:center;font-size:13px;padding:9px 10px}
+.feature-pill{display:inline-block;font-size:11px;background:#eef2ff;color:#3730a3;border-radius:999px;padding:2px 9px;margin:0 4px 4px 0}
+.big-card{background:linear-gradient(135deg,#0f172a,#1e293b);color:#fff;border-radius:20px;padding:30px;display:flex;gap:24px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.big-card h2{margin:0 0 6px;font-size:24px}
+.big-card p{margin:0;opacity:.85;max-width:560px;font-size:14px}
+.note{background:#eef2ff;border:1px solid #c7d2fe;border-radius:14px;padding:16px 18px;color:#3730a3;font-size:14px}
+.steps{counter-reset:s}
+.step{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px}
+.step .n{flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800}
+.foot{background:#0f172a;color:#cbd5e1;text-align:center;padding:38px 0;margin-top:64px}
+.foot a{color:#a5b4fc}
+.linkrow{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">
+  <a class="brandmark" href="index.html"><svg width="34" height="34" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="60" height="60" rx="15" fill="#eef2ff"/><text x="32" y="39" font-family="Inter,Arial" font-size="22" font-weight="900" fill="#4f46e5" text-anchor="middle">HMG</text><circle cx="50" cy="15" r="4" fill="#fde047"/></svg> HMG Connect</a>
+  <a class="btn btn-primary" href="https://wa.me/2348100866322" target="_blank" style="padding:9px 16px">📲 Talk to us</a>
+</div></div>
+
+<div class="hero"><div class="container">
+  <span class="badge">Master Launchpad · by HMG Concepts · EdTech · DataTech · FaithTech</span>
+  <h1>The Complete HMG Connect Ecosystem</h1>
+  <p>One launchpad for everything: <b>10 free, no-code platform generators</b>, the unified <b>Suite hub</b>, and a <b>Marketing Studio</b> of flyers & advert videos. Build complete management systems for any organisation in minutes — free tools, you own everything, <b>no AI APIs</b>.</p>
+</div></div>
+
+<div class="container"><div class="stat-row">
+  <div class="stat"><b>10</b><span>Platform generators</span></div>
+  <div class="stat"><b>₦0</b><span>Monthly cost</span></div>
+  <div class="stat"><b>40+</b><span>Modules (Business)</span></div>
+  <div class="stat"><b>100%</b><span>You own the data</span></div>
+  <div class="stat"><b>No AI</b><span>API fees</span></div>
+</div></div>
+
+<div class="container section">
+  <h2 class="section-title">① Platform Generators</h2>
+  <p class="section-sub">Each is a no-code builder: pick colours, fonts, layout, departments & features, then download a ready-to-deploy platform (Supabase + static hosting). Set each link in <code>assets/js/links.js</code> to your deployed copy.</p>
+  <div class="grid g3" id="genGrid"></div>
+</div>
+
+<div class="container section">
+  <h2 class="section-title">② Hub & Marketing</h2>
+  <div class="grid g2">
+    <div class="card">
+      <div class="top" style="background:linear-gradient(135deg,#7c3aed,#4f46e5)"><div class="ic">🌐</div><div><h2>HMG Connect Suite</h2><div class="tag">Unified showcase hub</div></div></div>
+      <div class="body"><p>A single deployable site that showcases & links every Connect product for clients — your public storefront for the whole range.</p>
+      <div class="cta"><a class="btn btn-primary" href="#" data-link="suite">Open Suite Hub</a></div></div>
+    </div>
+    <div class="card">
+      <div class="top" style="background:linear-gradient(135deg,#0ea5e9,#1e3a8a)"><div class="ic">📣</div><div><h2>Marketing Studio</h2><div class="tag">Flyers · videos · captions</div></div></div>
+      <div class="body"><p>Ready-to-share e-flyers, animated advert videos (MP4/GIF/WebM) and social caption kits for every product — to create awareness fast.</p>
+      <div class="cta"><a class="btn btn-primary" href="#" data-link="studio">Open Studio</a></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="container section">
+  <div class="big-card">
+    <div>
+      <h2>🎬 Live demo apps</h2>
+      <p>DramaConnect is already live as a real, deployed app. Point the others here as you publish them.</p>
+    </div>
+    <a class="btn" style="background:#fff;color:#0f172a" href="https://hmgtechnologies.github.io/lp25-dramaconnect/" target="_blank">Open DramaConnect ▶</a>
+  </div>
+</div>
+
+<div class="container section">
+  <h2 class="section-title">③ How it works (every product)</h2>
+  <div class="grid g2">
+    <div class="card" style="padding:24px"><div class="steps">
+      <div class="step"><div class="n">1</div><div><b>Fill the wizard</b><br><span style="color:var(--muted);font-size:14px">Details, logo, colours, fonts, layout, departments & features.</span></div></div>
+      <div class="step"><div class="n">2</div><div><b>Preview live</b><br><span style="color:var(--muted);font-size:14px">Click through every page with sample data before downloading.</span></div></div>
+      <div class="step"><div class="n">3</div><div><b>Download ZIP</b><br><span style="color:var(--muted);font-size:14px">A complete site + one-click Supabase SQL + clear guide.</span></div></div>
+    </div></div>
+    <div class="card" style="padding:24px"><div class="steps">
+      <div class="step"><div class="n">4</div><div><b>Create the database</b><br><span style="color:var(--muted);font-size:14px">Paste the SQL into a free Supabase project — one click.</span></div></div>
+      <div class="step"><div class="n">5</div><div><b>Connect & publish</b><br><span style="color:var(--muted);font-size:14px">Paste your keys; upload to GitHub Pages / Cloudflare / Vercel (free).</span></div></div>
+      <div class="step"><div class="n">6</div><div><b>Go live & manage</b><br><span style="color:var(--muted);font-size:14px">Sign up, make yourself admin, approve staff. Done.</span></div></div>
+    </div></div>
+  </div>
+  <div class="note section" style="margin-top:28px"><b>Why no AI?</b> The whole ecosystem is built on free, open technology (Supabase free tier, static hosting, vanilla JS, Canvas, Pillow, ffmpeg) — deliberately avoiding paid AI APIs because they are not cost effective. You can run, edit and host all of it for ₦0.</div>
+</div>
+
+<div class="foot"><div class="container">
+  <svg width="40" height="40" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" style="border-radius:10px"><rect x="2" y="2" width="60" height="60" rx="15" fill="rgba(255,255,255,.12)"/><text x="32" y="39" font-family="Inter,Arial" font-size="22" font-weight="900" fill="#fff" text-anchor="middle">HMG</text><circle cx="50" cy="15" r="4" fill="#fde047"/></svg>
+  <p style="margin:10px 0 4px">The <b style="color:#fff">HMG Connect</b> ecosystem is a product of <b style="color:#fff">HMG Concepts</b> — His Marvellous Grace.<br>EdTech · DataTech · FaithTech · Founded 2015 · Lagos, Nigeria.</p>
+  <div class="linkrow">
+    <a href="https://hmgconcepts.pages.dev" target="_blank">HMG Concepts</a> ·
+    <a href="https://hmgacademy.pages.dev" target="_blank">Academy</a> ·
+    <a href="https://hmgmedia.pages.dev" target="_blank">Media</a> ·
+    <a href="https://hmggospel.pages.dev" target="_blank">Gospel</a> ·
+    <a href="https://cssadewale.pages.dev" target="_blank">Adewale S. Adeagbo</a> ·
+    <a href="https://wa.me/2348100866322" target="_blank">WhatsApp</a>
+  </div>
+</div></div>
+
+<script src="assets/js/links.js"></script>
+<script>
+var GENS=[
+  {key:'school',  name:'School Connect',   ic:'🎓', tag:'Schools & colleges',          c1:'#0284c7',c2:'#1e3a8a', d:'Students, results/report cards, fees, CBT exams, timetable & parent portal.'},
+  {key:'church',  name:'Church Connect',   ic:'⛪', tag:'Churches & ministries',        c1:'#4f46e5',c2:'#3730a3', d:'Members, departments, giving, attendance, events & sermons.'},
+  {key:'business',name:'Business Connect', ic:'💼', tag:'Any business · Enterprise',     c1:'#059669',c2:'#065f46', d:'POS+receipts, CRM, storefront, invoices, payroll, analytics & audit.',badge:'v3'},
+  {key:'clinic',  name:'Clinic Connect',   ic:'🩺', tag:'Clinics, hospitals & labs',     c1:'#0d9488',c2:'#115e59', d:'Patients/EMR, consultations, prescriptions, pharmacy, wards & billing.',badge:'new'},
+  {key:'hotel',   name:'Hotel Connect',    ic:'🏨', tag:'Hotels, lodges & resorts',      c1:'#b45309',c2:'#78350f', d:'Rooms, reservations, guests, housekeeping, POS & folio billing.',badge:'new'},
+  {key:'realestate',name:'Estate Connect',   ic:'🏢', tag:'Property & facility managers',  c1:'#7c3aed',c2:'#5b21b6', d:'Properties, tenants, leases, rent, maintenance & agents.',badge:'new'},
+  {key:'gym',     name:'Gym Connect',      ic:'🏋️', tag:'Gyms & fitness studios',        c1:'#dc2626',c2:'#991b1b', d:'Members, subscriptions, check-ins, classes, POS & progress.',badge:'new'},
+  {key:'logistics',name:'Logistics Connect',ic:'🚚',tag:'Transport & delivery',          c1:'#1d4ed8',c2:'#1e3a8a', d:'Shipments, waybills, fleet, drivers, POD & billing.',badge:'new'},
+  {key:'salon',   name:'Salon Connect',    ic:'💇', tag:'Salons, spas & beauty',         c1:'#db2777',c2:'#9d174d', d:'Bookings, services, stylists, POS, loyalty & inventory.',badge:'new'},
+  {key:'drama',   name:'DramaConnect',     ic:'🎭', tag:'Drama & creative units',         c1:'#003399',c2:'#1e3a8a', d:'Casting, rehearsals, attendance, finance & multi-language.'}
+];
+var L=window.HMG_LINKS||{};
+document.getElementById('genGrid').innerHTML=GENS.map(function(g){
+  var badge=g.badge?' <span style="font-size:11px;background:rgba(255,255,255,.25);padding:1px 7px;border-radius:999px">'+g.badge+'</span>':'';
+  return '<div class="card"><div class="top" style="background:linear-gradient(135deg,'+g.c1+','+g.c2+')"><div class="ic">'+g.ic+'</div><div><h2>'+g.name+badge+'</h2><div class="tag">'+g.tag+'</div></div></div>'+
+    '<div class="body"><p>'+g.d+'</p><div class="cta"><a class="btn btn-primary" href="#" data-link="'+g.key+'">Open generator</a><a class="btn btn-ghost" href="studio/flyers/'+g.key+'-connect-flyer.html">Flyer</a></div></div></div>';
+}).join('');
+// wire data-link buttons to configured URLs
+document.querySelectorAll('[data-link]').forEach(function(a){
+  var key=a.getAttribute('data-link'); var url=(window.HMG_LINKS||{})[key];
+  if(url){a.href=url;a.target='_blank';}
+  else {a.addEventListener('click',function(e){e.preventDefault();alert('Set the "'+key+'" URL in assets/js/links.js to enable this button.');});}
+});
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}
+</script>
+</body>
+</html>

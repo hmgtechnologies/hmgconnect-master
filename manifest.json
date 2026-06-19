@@ -1,0 +1,9 @@
+{
+  "name": "HMG Connect — Master Launchpad",
+  "short_name": "HMG Connect",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [{ "src": "assets/img/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }]
+}
